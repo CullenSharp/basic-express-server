@@ -1,0 +1,35 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "A basic server setup with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CullenSharp/basic-express-server.git"
+  },
+  "keywords": [
+    "Practice",
+    "Learn-to-code",
+    "REST",
+    "Express"
+  ],
+  "author": "Cullen Sharp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CullenSharp/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/CullenSharp/basic-express-server#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
+  }
+}
